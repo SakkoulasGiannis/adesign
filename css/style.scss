@@ -74,26 +74,26 @@ $g : 0;
 
 
 /* padding from 10 to 100 */
-$class-slug: padding !default
+$paddingtop: padding-top !default
 $step : 10;
 $g : 0;
 @for $i from 1 through 10 {
   $g : $i * $step;
-  .#{$class-slug}-#{$g}
+  .#{$paddingtop}-#{$g}
   {
-      padding: #{$g}px;
+      padding-top: #{$g}px;
   }
 }
 
 // padding-btm
-$padding-btm: padding-btm !default
+$paddingbtm: padding-btm !default
 $step : 10;
 $g : 0;
 @for $i from 1 through 10 {
   $g : $i * $step;
-  .#{$padding-btm}-#{$g}
+  .#{$paddingbtm}-#{$g}
   {
-      padding: #{$g}px;
+      padding-bottom: #{$g}px;
   }
 }
 
@@ -105,7 +105,7 @@ $g : 0;
   $g : $i * $step;
   .#{$padding-left}-#{$g}
   {
-      padding: #{$g}px;
+      padding-left: #{$g}px;
   }
 }
 
@@ -117,7 +117,7 @@ $g : 0;
   $g : $i * $step;
   .#{$margin-top}-#{$g}
   {
-      padding: #{$g}px;
+      margin-top: #{$g}px;
   }
 }
 
@@ -140,16 +140,25 @@ margin-right: 0;
 padding-bottom: 0;
 }
 
-.grid-sm-padding + .grid-sm-padding {
-    padding: 3px !important;
-    margin: 0px !important;
+// .grid-sm-gutter + .grid-sm-gutter {
+//     padding: 3px !important;
+//     margin: 0px !important;
+// }
+
+.grid-sm-gutter {
+  [class*="col-"] {
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+    padding-bottom: 6px;
+  }
 }
+
 /*endregion*/
 /*region colors*/
 .bg-grey{
     background: #eee;
 }
-.black_bg{
+.bg-black{
     background: #000;
 }
 .color_white{

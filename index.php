@@ -94,11 +94,11 @@ include('head.inc');
         <div class="col-md-12">
           <div class="box-one">
             <div class="zigZag-sm"> </div>
-              <div class="padding-btm-40 text-center">
-                <h3 class="large wow fadeInUp">Fast Simple Small</h3>
-                <a href="#" class="btn btn-one btn-large margin-top-10 wow fadeInRight">Get it</a>
-              </div>
-              <div class="zigZag"> </div>
+            <div class="padding-btm-40 text-center">
+              <h3 class="large wow fadeInUp">Fast Simple Small</h3>
+              <a href="#" class="btn btn-one btn-large margin-top-10 wow fadeInRight">Get it</a>
+            </div>
+            <div class="zigZag"> </div>
 
           </div>
         </div>
@@ -110,36 +110,35 @@ include('head.inc');
 
     <section class="gallery">
 
-      <div class="row">
+      <div class="row grid-sm-gutter">
         <h2 class="text-right">Latest Work</h2>
-        <div class="col-md-4 grid-sm-padding">
+        <div class="col-md-4">
           <a class="gallery" href="src/image2.jpg">
             <img src="src/image2.jpg" class="img-responsive" alt="" />
           </a>
         </div>
-        <div class="col-md-4 grid-sm-padding">
+        <div class="col-md-4 ">
           <a class="gallery" href="src/imac.jpg">
             <img src="src/imac.jpg" class="img-responsive" alt="" />
           </a>
         </div>
-        <div class="col-md-4 grid-sm-padding">
+        <div class="col-md-4 ">
           <a class="gallery" href="src/image3.jpg">
             <img src="src/image3.jpg" class="img-responsive" alt="" />
           </a>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 grid-sm-padding">
+
+        <div class="col-md-4 ">
           <a class="gallery" href="src/image2.jpg">
             <img src="src/image2.jpg" class="img-responsive" alt="" />
           </a>
         </div>
-        <div class="col-md-4 grid-sm-padding">
+        <div class="col-md-4 ">
           <a class="gallery" href="src/imac.jpg">
             <img src="src/imac.jpg" class="img-responsive" alt="" />
           </a>
         </div>
-        <div class="col-md-4 grid-sm-padding">
+        <div class="col-md-4 ">
           <a class="gallery" href="src/image3.jpg">
             <img src="src/image3.jpg" class="img-responsive" alt="" />
           </a>
@@ -147,11 +146,14 @@ include('head.inc');
       </div>
 
     </section>
+
+    <div class="space-80"></div>
+
     <section class="about">
 
       <div class="row">
         <div class="col-md-6">
-          <img src="src/image2.jpg" class="img-responsive" alt="" />
+          <img src="src/image2.jpg" class="margin-top-30 img-responsive" alt="" />
         </div>
         <div class="col-md-6">
           <h2>Some text here</h2>
@@ -176,14 +178,16 @@ include('head.inc');
           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
         </div>
         <div class="col-md-6">
-          <img src="src/image2.jpg" class="img-responsive" alt="" />
+          <img src="src/image2.jpg" class="img-responsive margin-top-30" alt="" />
         </div>
       </div>
 
     </section>
     <div class="space-80"></div>
-
-    <section class="  list-icons">
+  </div>
+  <!-- close container -->
+  <section class="list-icons bg-grey">
+    <div class="container padding-top-40">
       <div class="row">
         <div class="col-md-4">
           <div class="row">
@@ -243,26 +247,8 @@ include('head.inc');
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="row">
-            <div class="col-md-2">
-              <i class="fa fa-connectdevelop fa-3x"></i>
-            </div>
-            <div class="col-md-10">
-              <h3 class="no_top_margin">Awesome design</h3>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
-            </div>
-          </div>
-        </div>
-
-
       </div>
-    </section>
-  </div>
-  <!-- close container -->
+    </div>
+  </section>
+
   <?php include('./foot.inc');?>
-
-
-    </body>
-
-    </html>
