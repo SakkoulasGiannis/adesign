@@ -98,7 +98,7 @@ include('head.inc');
                 <h3 class="large wow fadeInUp">Fast Simple Small</h3>
                 <a href="#" class="btn btn-one btn-large margin-top-10 wow fadeInRight">Get it</a>
               </div>
-              <div class="zigZag padding-top-20 padding-btm-20"> </div>
+              <div class="zigZag"> </div>
 
           </div>
         </div>
@@ -154,13 +154,13 @@ include('head.inc');
           <img src="src/image2.jpg" class="img-responsive" alt="" />
         </div>
         <div class="col-md-6">
-          <div class="zigZaglarge wow fadeInLeft"></div>
           <h2>Some text here</h2>
+          <div class="zigZag"></div>
           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam Sed ut perspiciatis
             unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam Sed ut perspiciatis unde omnis
             iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam. </p>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+
         </div>
       </div>
       <div class="row">
@@ -168,6 +168,7 @@ include('head.inc');
         <div class="col-md-6 ">
 
           <h2>Some text here</h2>
+          <div class="zigZag"></div>
           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam Sed ut perspiciatis
             unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam Sed ut perspiciatis unde omnis
@@ -180,7 +181,7 @@ include('head.inc');
       </div>
 
     </section>
-    <div class="space-xl"></div>
+    <div class="space-80"></div>
 
     <section class="  list-icons">
       <div class="row">
@@ -217,7 +218,9 @@ include('head.inc');
             </div>
           </div>
         </div>
-        <div class="space-xl"></div>
+
+        <div class="space-40"></div>
+
         <div class="col-md-4">
           <div class="row">
             <div class="col-md-2">

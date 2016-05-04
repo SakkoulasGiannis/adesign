@@ -20,14 +20,21 @@ html, body {
     height:100%;
     overflow:hidden;
 }
-.space{
-    width: 100%;
-    height: 50px;
+
+$space: space !default
+$step : 20;
+$g : 0;
+@for $i from 1 through 10 {
+  $g : $i * $step;
+  .#{$space}-#{$g}
+  {
+      width: 100%;
+      height:  #{$g}px;
+      display: inline-block;
+  }
 }
-.space-xl{
-    width: 100%;
-    height: 100px;
-}
+
+
 /* content centering styles */
 .content-a {
     display:table;
