@@ -24,7 +24,22 @@ yepnope([{
     test:$('i').hasClass('fa'),
     yep: 'http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css',
     callback: function(url, result, key) {
-        console.log('awesome FOnts loaded');
+        console.log('awesome Fonts loaded');
+    }
+},
+{
+    //load wow animate.css
+    test:$('div').hasClass('owl-carousel'),
+    yep: [locationUrl + 'js/owl.carousel.min.js', locationUrl + 'css/owl.carousel.css'],
+    callback: function(url, result, key) {
+      $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+          items:1,
+          loop: true
+        });
+      });
+
+        console.log('owl carousel running');
     }
 },
     //magnific-popup
@@ -47,19 +62,19 @@ yepnope([{
         }
     },
     //scroll to
-    {
-        test:$('nav').hasClass("scrollTo"),
-        yep: ['//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js'],
-        callback: function(url, result, key){
-           $(function() {
-                $('.scrollTo li a').on('click', function (e) {
-                    e.preventDefault();
-                    var ddd = $(this).attr('href');
-                    $.scrollTo(ddd, {duration: scrollDuration});
-                });
-            });
-        }
-    },
+    // {
+    //     test:$('nav').hasClass("scrollTo"),
+    //     yep: ['//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js'],
+    //     callback: function(url, result, key){
+    //        $(function() {
+    //             $('.scrollTo li a').on('click', function (e) {
+    //                 e.preventDefault();
+    //                 var ddd = $(this).attr('href');
+    //                 $.scrollTo(ddd, {duration: scrollDuration});
+    //             });
+    //         });
+    //     }
+    // },
     {
         test:$('nav').hasClass('on-scroll-gtt'),
         yep:'',

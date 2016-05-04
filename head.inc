@@ -1,3 +1,8 @@
+<?php
+$domain = $_SERVER['HTTP_HOST'];
+$root = "http://{$domain}/adesign/";
+ ?>
+
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 <head>
@@ -8,17 +13,17 @@
     <title>Awesome Design</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?=$root;?>css/bootstrap.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400italic,300,700,300italic,400' rel='stylesheet' type='text/css'>
 
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/custom_style.css" rel="stylesheet">
+    <link href="<?=$root;?>css/style.css" rel="stylesheet">
+    <link href="<?=$root;?>css/custom_style.css" rel="stylesheet">
 <!--    <link href="css/colors.css" rel="stylesheet">-->
 
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/modernizr.js"></script>
+    <script src="<?=$root;?>js/bootstrap.min.js"></script>
+    <script src="<?=$root;?>js/modernizr.js"></script>
 
 
 
@@ -35,7 +40,7 @@
     <div id="progstat"></div>
     <div id="progress"></div>
 </div>
-<nav class="navbar center navbar-style-1 navbar-fixed-top clearHeader scrollTo" role="navigation">
+<nav class="navbar center navbar-style-1 <?=$navbar;?> clearHeader <?=$scrollTo;?>" role="navigation">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -45,20 +50,32 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand strong" href="index.php"><img src="src/ad.png" width="140"/> </a>
+            <a class="navbar-brand strong" href="<?=$root;?>index.php"><img src="<?=$root;?>src/ad.png" width="140"/> </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="index.php">Home</a></li>
+                <li class="active"><a href="<?=$root;?>index.php">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">ELEMENTS <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="<?=$root;?>sliders/owl.php">OWL CAROUSEL</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                <li>
                 <li><a href="about.php">About Us</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="contact.php">Contact</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">ELEMENTS <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
-                        <li><a href="#scroll">Action</a></li>
+                        <li><a href="#scroll">OWL CAROUSEL</a></li>
                         <li><a href="#">Another action</a></li>
                         <li><a href="#">Something else here</a></li>
                         <li class="divider"></li>
