@@ -310,11 +310,21 @@ button.navbar-toggle .icon-bar {
     font-weight: 100;
 }
 
-.navbar-style-1 ul > li > ul {
-    background: rgba(255,255,255,0.8);
+
+.navbar-style-1 ul > li {
+  ul{
+    background: rgb(238, 238, 238);
+    // background: rgba(255,255,255,0.8);
+  }
 }
+
+li.dropdown:hover > a {
+    background: rgb(238, 238, 238);
+}
+
 .dropdown:hover ul {
     display: inline-block;
+    border: none;
 }
 .WhiteHeader {
     background: #fff;

@@ -472,12 +472,17 @@ button.navbar-toggle .icon-bar {
   font-weight: 100;
 }
 
-.navbar-style-1 ul > li > ul {
-  background: rgba(255, 255, 255, 0.8);
+.navbar-style-1 ul > li ul {
+  background: #eeeeee;
+}
+
+li.dropdown:hover > a {
+  background: #eeeeee;
 }
 
 .dropdown:hover ul {
   display: inline-block;
+  border: none;
 }
 
 .WhiteHeader {

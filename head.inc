@@ -56,9 +56,15 @@ $root = "http://{$domain}/adesign/";
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="<?=$root;?>index.php">Home</a></li>
+                <li class="active dropdown"><a href="<?=$root;?>index.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">HOME</a>
+                  <ul class="dropdown-menu" role="menu">
+                      <li><a href="#">Home 1</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#">Home 2</a></li>
+                  </ul>
+                </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">ELEMENTS <span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">FEATURES <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="<?=$root;?>sliders/owl.php">OWL CAROUSEL</a></li>
                         <li><a href="#">Another action</a></li>
@@ -69,6 +75,18 @@ $root = "http://{$domain}/adesign/";
                         <li><a href="#">One more separated link</a></li>
                     </ul>
                 <li>
+                  <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">ELEMENTS <span class="caret"></span></a>
+                      <ul class="dropdown-menu" role="menu">
+                          <li><a href="<?=$root;?>sliders/owl.php">OWL CAROUSEL</a></li>
+                          <li><a href="#">Another action</a></li>
+                          <li><a href="#">Something else here</a></li>
+                          <li class="divider"></li>
+                          <li><a href="#">Separated link</a></li>
+                          <li class="divider"></li>
+                          <li><a href="#">One more separated link</a></li>
+                      </ul>
+                  <li>
                 <li><a href="about.php">About Us</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="contact.php">Contact</a></li>

@@ -50,7 +50,7 @@ include('head.inc');
     <section class="convertionBox">
       <div class="row">
         <div class="col-md-12">
-          <div class="box-one">
+          <div class="box-one padding-top-40">
             <div class="zigZag-sm"> </div>
             <div class="padding-btm-40 text-center">
               <h3 class="large wow fadeInUp">Fast Simple Small</h3>
