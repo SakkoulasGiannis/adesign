@@ -54,7 +54,7 @@ include('head.inc');
             <div class="zigZag-sm"> </div>
             <div class="padding-btm-40 text-center">
               <h3 class="large wow fadeInUp">Fast Simple Small</h3>
-              <a href="#" class="btn btn-one btn-large margin-top-10 wow fadeInRight">Get it</a>
+              <a href="#" class="btn black padding-right-100 padding-left-100 margin-top-10 wow fadeInRight">Get it</a>
             </div>
             <div class="zigZag"> </div>
 

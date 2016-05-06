@@ -1,0 +1,73 @@
+
+/*** padding from 10 to 100 ***/
+$paddingtop: padding-top !default
+$step : 10;
+$g : 0;
+@for $i from 1 through 10 {
+  $g : $i * $step;
+  .#{$paddingtop}-#{$g}
+  {
+      padding-top: #{$g}px;
+  }
+}
+
+/*** end padding from 10 to 100 ***/
+
+// padding-btm
+$paddingbtm: padding-btm !default
+$step : 10;
+$g : 0;
+@for $i from 1 through 10 {
+  $g : $i * $step;
+  .#{$paddingbtm}-#{$g}
+  {
+      padding-bottom: #{$g}px;
+  }
+}
+
+// padding-btm
+$padding-left: padding-left !default
+$step : 15;
+$g : 0;
+@for $i from 1 through 10 {
+  $g : $i * $step;
+  .#{$padding-left}-#{$g}
+  {
+      padding-left: #{$g}px;
+  }
+}
+
+$padding-right: padding-right !default
+$step : 15;
+$g : 0;
+@for $i from 1 through 10 {
+  $g : $i * $step;
+  .#{$padding-left}-#{$g}
+  {
+      padding-right: #{$g}px;
+  }
+}
+
+/* margin-top */
+$margin-top: margin-top !default
+$step : 10;
+$g : 0;
+@for $i from 1 through 10 {
+  $g : $i * $step;
+  .#{$margin-top}-#{$g}
+  {margin-top: #{$g}px;}
+}
+
+
+/* padding */
+$class-slug: padding !default
+$step : 10;
+$g : 0;
+@for $i from 1 through 10 {
+  $g : $i * $step;
+  .#{$class-slug}-#{$g}
+  {
+      padding: #{$g}px;
+  }
+
+}
