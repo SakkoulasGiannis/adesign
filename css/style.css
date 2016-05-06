@@ -1,9 +1,75 @@
 html, body {
-  /* give this to all tags from html to .fullscreen */
+  /*** give this to all tags from html to .fullscreen ***/
   height: 100%;
   font-family: "Roboto", sans-serif;
 }
 
+/*** background colors ***/
+.red {
+  background: #c0392b;
+  color: #fff;
+}
+
+.red:hover {
+  color: #fff;
+}
+
+.white {
+  background: #fff;
+  color: #222;
+}
+
+.white:hover {
+  color: #222;
+}
+
+.black {
+  background: black;
+  color: #eee;
+}
+
+.black:hover {
+  color: #fff;
+}
+
+/*** end background colors ***/
+/*buttons*/
+.btn {
+  transition: all 0.4s;
+  border-radius: 0;
+  padding: 10px 50px;
+  font-size: 16px;
+}
+
+.btn.radius {
+  border-radius: 4px;
+}
+
+.btn.border {
+  border: solid 1px #222;
+}
+
+.btn.hover-shadow:hover {
+  box-shadow: 0 0 4px #222;
+}
+
+.effe1:after {
+  transition: all 0.4s;
+  content: "";
+  background: -moz-linear-gradient(-45deg, rgba(255, 183, 107, 0) 0%, rgba(255, 167, 61, 0.5) 50%, rgba(255, 124, 0, 0.51) 51%, #ff7f04 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(255, 183, 107, 0) 0%, rgba(255, 167, 61, 0.5) 50%, rgba(255, 124, 0, 0.51) 51%, #ff7f04 100%);
+  background: linear-gradient(135deg, rgba(255, 183, 107, 0) 0%, rgba(255, 167, 61, 0.5) 50%, rgba(255, 124, 0, 0.51) 51%, #ff7f04 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffb76b', endColorstr='#ff7f04',GradientType=1 );
+  opacity: 1;
+  background-size: 200%;
+}
+
+.effe1:after:hover {
+  opacity: 1;
+  background-size: 100%;
+}
+
+/*** end buttons ***/
 .navbar {
   margin-bottom: 0;
 }
@@ -83,7 +149,7 @@ html, body {
   display: inline-block;
 }
 
-/* content centering styles */
+/*** content centering styles ***/
 .content-a {
   display: table;
 }
@@ -148,7 +214,7 @@ html, body {
   padding: 0;
 }
 
-/* padding from 10 to 100 */
+/*** padding from 10 to 100 ***/
 .padding-top-10 {
   padding-top: 10px;
 }
@@ -189,6 +255,7 @@ html, body {
   padding-top: 100px;
 }
 
+/*** end padding from 10 to 100 ***/
 .padding-btm-10 {
   padding-bottom: 10px;
 }
@@ -373,11 +440,6 @@ html, body {
   background: transparent;
 }
 
-.btn {
-  padding: 10px 50px;
-  font-size: 16px;
-}
-
 .btn.btn-one {
   color: #FFF;
   background: #FF005F;
@@ -397,29 +459,7 @@ html, body {
 }
 
 /*endregion*/
-/*region buttons*/
-.btn.shadow {
-  border-bottom: 2px solid #999;
-}
-
-.btn:hover {
-  border-bottom: 1px solid #ccc;
-}
-
-.btn.sm {
-  padding: 10px 35px;
-}
-
-.btn.lr {
-  padding: 20px 70px;
-}
-
-.btn.xl {
-  padding: 20px 140px;
-}
-
-/*endregion*/
-/*region Boxes*/
+/*Boxes*/
 .zigZag, .zigZag-sm {
   width: 100%;
   height: 8px;
@@ -435,7 +475,7 @@ html, body {
   height: 8px;
 }
 
-/*endregion*/
+/* end boxes */
 /*region navbar*/
 button.navbar-toggle .icon-bar {
   background: #222;
