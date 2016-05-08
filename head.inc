@@ -1,8 +1,4 @@
-<?php
-$domain = $_SERVER['HTTP_HOST'];
-$root = "http://{$domain}/adesign/";
- ?>
-
+<?= include "inc/variables.php";?>
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 <head>
@@ -58,7 +54,7 @@ $root = "http://{$domain}/adesign/";
             <ul class="nav navbar-nav navbar-right">
                 <li class="active dropdown"><a href="<?=$root;?>index.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">HOME</a>
                   <ul class="dropdown-menu" role="menu">
-                      <li><a href="#">Home 1</a></li>
+                      <li><a href="<?=$root;?>home-1.php">Home 1</a></li>
                       <li class="divider"></li>
                       <li><a href="#">Home 2</a></li>
                   </ul>
@@ -68,7 +64,7 @@ $root = "http://{$domain}/adesign/";
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="<?=$root;?>sliders/owl.php">OWL carousel</a></li>
                         <li><a href="<?=$root;?>extra/buttons.php">Buttons</a></li>
-                        <li><a href="#">Something else here</a></li>
+                        <li><a href="<?=$root;?>extra/headers.php">Headers</a></li>
                         <li class="divider"></li>
                         <li><a href="#">Separated link</a></li>
                         <li class="divider"></li>

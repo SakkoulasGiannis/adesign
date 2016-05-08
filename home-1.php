@@ -1,3 +1,4 @@
+<?= include "inc/variables.php";?>
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 <head>
@@ -121,39 +122,115 @@
 
 
 <div class="container">
-    <div class="row">
-        <div class="col-md-4 wow fadeInLeft ">
+    <div class="row margin-top-20">
+        <div class="col-md-4">
+          <div class="box padding-10 text-center bordered">
             <i class="fa fa-code fa-3x "></i>
-            <p>
-               
-                Ο γραμματέας της Πολιτικής Επιτροπής της ΝΔ πρόσθεσε: «Αν δούμε καθαρά την εικόνα, ο κόσμος αποστρέφεται το πολιτικό σύστημα. Τους ενδιαφέρει, όχι τι θα κάνουμε στο εσωτερικό μας, αλλά τους ενδιαφέρει τι θα προτείνει η ΝΔ στο μεταναστευτικό, την παιδεία, την ασφάλεια, τον τουρισμό, την ανάπτυξη κι αυτό είναι δική μας δουλειά και καθήκον».
+            <h2>Title Here</h2>
+            <p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 
-                Ο πρώην υπουργός και γραμματέας στρατηγικού σχεδιασμού και επικοινωνίας, Μιλτιάδης Βαρβιτσιώτης σημείωσε, μεταξύ άλλων:
-
-                «Είμαστε εδώ για να πούμε ότι πιστεύουμε σ' αυτή την παράταξη. Πιστεύουμε στις αρχές, τις αξίες, την ιδεολογία μας. Πιστεύουμε στην εθνική προσφορά της παράταξης κι αυτή την εθνική προσφορά κανένας δεν έχει το δικαίωμα να μειώνει».
-
-                Ο κ. Βαρβιτσιώτης τόνισε εξάλλου: «Δεν διαπραγματεύτηκε ποτέ αυτή η παράταξη στα τέσσερα, όπως θέλουν να μας λένε. Δεν υπήρξε προσκυνημένη, δεν έκανε συμβιβασμούς προς όφελος δανειστών. Ό,τι κι αν έκανε, το έκανε γιατί πίστεψε ότι πρέπει με δύσκολες αποφάσεις να στηρίξει τον τόπο. Να κάνει το πατριωτικό της καθήκον απέναντι στη νέα γενιά».
-
-                Ο πρόεδρος της ΝΟΔΕ Αρκαδίας Τίμος Κατσίπος που ήταν ένας από τους 28 της ΟΝΝΕΔ που υπέγραψαν το 2009 κείμενο καλώντας τον κ. Σαμαρά να διεκδικήσει την ηγεσία του κόμματος, σήμερα άσκησε αυστηρή κριτική. Υπογράμμισε μεταξύ άλλων ότι, «στις τελευταίες εκλογές οι πολίτες έστειλαν ισχυρό και ξεκάθαρο μήνυμα.
-
-                Η "ελπίδα" του ΣΥΡΙΖΑ νίκησε ξεκάθαρα τη δική μας αλήθεια. Οι αιτίες της ήττας πολλές και δεν μπορούν να κρυφτούν πίσω από το άλλοθι του λαϊκισμού των αντιπάλων μας.
-
-                Επιτρέψαμε τα επώδυνα μέτρα αντιμετώπισης της κρίσης να αποτελέσουν εργαλείο ενοχοποίησης του συνόλου της πολιτικής μας και της ιδεολογίας μας και διαγραφής της ιστορικής προσφοράς της παράταξης στον τόπο».
-
-                Ο κ. Κατσίπος πρόσθεσε: «Απομακρυνθήκαμε από την κοινωνία και δεν φάνηκε να κατανοούμε ποτέ τον πραγματικό Γολγοθά που ανέβαινε ο μέσος πολίτης.
-
-                Οι τεχνοκράτες υπουργοί των Οικονομικών αρνούνταν να δουν την εξοντωτική υπερφορολόγηση της μεσαίας τάξης. Τελικά δεν καταφέραμε να δώσουμε ένα ξεκάθαρο εθνικό όραμα για τα χρόνια που έρχονται».
-
-                Ο κ. Κατσίπος ανέφερε ότι η συνοχή της παράταξης δεν μπορεί να επιβληθεί με εκβιαστικά διλήμματα. «Δεν επιτρέπεται ο φόβος μιας πρόσκαιρης εσωστρέφειας, την οποία ήδη βιώνουμε στην πράξη εδώ και καιρό, να αποτελέσει άλλοθι για την παρατεταμένη συρρίκνωση της παράταξης», είπε και τόνισε:
-
-                «Το μέλλον της ΝΔ θα το αποφασίσουν ξανά οι ίδιοι οι νεοδημοκράτες. Όλοι μαζί. Η παράταξη δεν χρειάζεται συνδιασκέψεις ψυχοθεραπείας. Χρειάζεται αποφάσεις και αλλαγές άμεσα».
-            </p>
+          </div>
         </div>
+        <div class="col-md-4">
+          <div class="box padding-10 text-center bordered">
+            <i class="fa fa-code fa-3x "></i>
+            <h2>Title Here</h2>
+            <p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box padding-10 text-center bordered">
+            <i class="fa fa-code fa-3x "></i>
+            <h2>Title Here</h2>
+            <p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+          </div>
+        </div>
+    </div>
+
+    <div class="row margin-top-20">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="text-center">
+          <h1>Title Here </h1>
+          <div class="seperator-small"></div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+
     </div>
 </div>
 
 
-<script>
+  <div class="parallax-window" data-parallax="scroll" data-height='400px' data-image-src="http://localhost/adesign/src/image3.jpg">
+    <div class="container">
 
-</script>
+      <div class="row">
+
+
+        <div class="col-md-6 col-md-offset-3">
+          <div class="padding-20 white-fonts">
+            <div class="text-center">
+              <i class="fa fa-gear"></i>
+            </div>
+            <h1 class="text-center">fdsdfds fdsfsfsd</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+              voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="parallax-window" data-parallax="scroll" data-height='500px' data-image-src="http://localhost/adesign/src/bike.jpeg">
+    <div class="container">
+
+      <div class="row white-fonts">
+        <div class="col-md-8 col-md-offset-2">
+          <h1 class="text-center">fdsdfds fdsfsfsd</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="">
+                <ul class="list-unstyled">
+                  <li class="title">Some Title Here</li>
+                  <li>text 1</li>
+                  <li>text 2</li>
+                  <li>text 3</li>
+                  <li>text 4</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="white-fonts">
+                <ul class="list-unstyled">
+                  <li class="title">Some Title Here</li>
+                  <li>text 1</li>
+                  <li>text 2</li>
+                  <li>text 3</li>
+                  <li>text 4</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="white-fonts">
+                <ul class="list-unstyled">
+                  <li class="title">Some Title Here</li>
+                  <li>text 1</li>
+                  <li>text 2</li>
+                  <li>text 3</li>
+                  <li>text 4</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
 <?php include('./foot.inc');

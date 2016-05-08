@@ -20,6 +20,19 @@ yepnope([{
     }
 },
 {
+    //load parallax
+    test:$('div').hasClass('parallax-window'),
+    yep: [locationUrl + 'js/parallax.min.js'],
+    callback: function(url, result, key) {
+        console.log('Parallax loaded');
+        $('.parallax-window').each(function(){
+          $(this).parallax({imageSrc: $(this).data("image-src")});
+          $(this).css("min-height", $(this).data("height"))
+        })
+
+    }
+},
+{
     //load wow animate.css
     test:$('i').hasClass('fa'),
     yep: 'http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css',
@@ -111,11 +124,6 @@ $(function() {
     });
 });
 $(window).load(function() {
-
-
-
-
-
     var theWindow        = $(window),
         $bg              = $("#bg"),
         aspectRatio      = $bg.width() / $bg.height();

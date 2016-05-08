@@ -59,9 +59,20 @@ $g : 0;
 }
 
 
+/* margins */
+/* margin-top */
+$margin: margin !default
+$step : 10;
+$g : 0;
+@for $i from 1 through 10 {
+  $g : $i * $step;
+  .#{$margin}-#{$g}
+  {margin: #{$g}px;}
+}
+
 /* padding */
 $class-slug: padding !default
-$step : 10;
+$step : 15;
 $g : 0;
 @for $i from 1 through 10 {
   $g : $i * $step;

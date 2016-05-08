@@ -1,4 +1,4 @@
-<div class="row grid-sm-gutter">
+<div class="row grid-sm-gutter dotted">
   <h2 class="text-right">Latest Work</h2>
   <div class="col-md-4">
     <a class="gallery" href="<?=$root;?>src/image2.jpg">

@@ -7,9 +7,9 @@
     var locationUrl = window.location.origin+"/adesign/";
     console.log(locationUrl);
 </script>
+
 <script src="http://<?=$domain;?>/adesign/js/scripts.js"></script>
-
-
+ 
 
   </body>
 </html>
