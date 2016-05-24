@@ -1,24 +1,58 @@
+/*
+* Class Styles
+*  .min-height default 650px
+*  .line-height-0
+*  .white-fonts set p, a, h1-h5 to #fff
+*  li.title font sizet 110%
+*  .flex
+*  .vertical-align
+*  .parallax-window
+*
+*
+* background colors
+* .red
+*
+*
+*
+*
+*
+*
+* effects
+*  .pulse
+*  .blink
+*
+*
+*
+*
+*
+*/
+
+
 $font: 'Roboto', sans-serif;
 $baseColor: #eee;
 $lightGray: #eee;
 $purple: rebeccapurple;
+$defaultBtnColor: #222;
 @import 'inc/_creators';
 @import 'inc/_buttons';
 @import 'inc/_seperators';
 
-
+section + section{
+  margin-top: 40px;
+}
 .min-height{
   min-height: 650px;
 }
 
+.line-height-0{
+  line-height: 0;
+}
 
 html, body {
     /*** give this to all tags from html to .fullscreen ***/
     height:100%;
     font-family: $font;
 }
-
-
 
 /* colors */
 .white-fonts{
@@ -49,6 +83,11 @@ ul{
     background: transparent;
 }
 
+.flex, .vertical-align {
+  height: auto;
+  display: flex;
+  align-items: center;
+}
 
 /*** parallax-window ***/
 
@@ -106,7 +145,10 @@ ul{
   border-radius: 0;
   padding: 10px 50px;
   font-size: 16px;
-
+  background: $defaultBtnColor;
+  &.small{width:20%;display: inline-block;}
+  &.large{width:60%;display: inline-block;}
+  &.xlarge{width:80%;display: inline-block;}
   &.white{
     transition: all 0.2s;
     background: #fff;
@@ -205,18 +247,7 @@ ul{
     overflow:hidden;
 }
 
-$space: space !default
-$step : 20;
-$g : 0;
-@for $i from 1 through 10 {
-  $g : $i * $step;
-  .#{$space}-#{$g}
-  {
-      width: 100%;
-      height:  #{$g}px;
-      display: inline-block;
-  }
-}
+
 
 
 /*** content centering styles ***/
@@ -355,7 +386,7 @@ button.navbar-toggle .icon-bar {
 .navbar-style-1 ul > li > a {
     padding: 30px;
     color: #000;
-    margin: 0px;
+    margin: 0;
     font-weight: bold;
 }
 
@@ -540,3 +571,33 @@ section{
     padding: 7px;
 }
 /*enddividers*/
+/* gallery */
+.gallery{
+  position: relative;
+  display: inline-table;
+  .content{
+    position: absolute;
+    bottom: 0;
+    color: #D2D2D2;
+    background: rgba(34, 34, 34, 0.68);
+    padding: 0 10px;
+    width: 100%;
+  }
+
+}
+
+
+
+//border grid
+
+
+.grid + .grid:after {
+  border-left: dotted 1px #c1c1c1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  content: "";
+  bottom: -50%;
+}
+
+.grid + .grid:before {content: "";position: absolute;height: 100%;width: 100%;border-bottom: dotted 1px #C1C1C1;}

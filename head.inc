@@ -1,4 +1,4 @@
-<?= include "inc/variables.php";?>
+<?php include "inc/variables.php";?>
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 <head>
@@ -20,6 +20,7 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="<?=$root;?>js/bootstrap.min.js"></script>
     <script src="<?=$root;?>js/modernizr.js"></script>
+    <script src="<?=$root;?>js/modernizrTouch.js"></script>
 
 
 

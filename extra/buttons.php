@@ -3,7 +3,13 @@
 $navbar = null;
 include "../head.inc";?>
 
-<div class="container min-height">
+<!--
+#boottstrap container
+#min-height: set min-height to 650px
+#margin-top: margint-top: 40px;
+-->
+
+<div class="container min-height margin-top-40">
   <div class="row">
     <div class="col-md-3">
       <a href='#' class="btn btn-block hover-gradient red"> Awesome Button</a>

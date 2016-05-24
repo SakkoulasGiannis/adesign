@@ -33,6 +33,14 @@ yepnope([{
     }
 },
 {
+    //load parallax
+    test:$('ul').hasClass('cs-style-1'),
+    yep: [locationUrl + 'js/toucheffects.js',locationUrl + 'css/component.css'],
+    callback: function(url, result, key) {
+        console.log('component effect loaded');
+    }
+},
+{
     //load wow animate.css
     test:$('i').hasClass('fa'),
     yep: 'http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css',
