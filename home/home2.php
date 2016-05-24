@@ -2,7 +2,7 @@
 $navbar = null;
 include "../head.inc";
 ?>
-
+sdfdsfdsfsd
 <!--
 #boottstrap container
 #min-height: set min-height to 650px
@@ -19,7 +19,7 @@ include "../head.inc";
                         <div class="text-center">
                             <i class="fa fa-gear"></i>
                         </div>
-                        <h1 class="text-center">fdsdfds fdsfsfsd</h1>
+                        <h1 class="text-center">test fdsdfds fdsfsfsd</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                             laboris nisi ut aliquip ex ea commodo consequat. .</p>
