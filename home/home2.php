@@ -9,7 +9,7 @@ sdfdsfdsfsd
 #margin-top: margint-top: 40px;
 -->
 
-<section>
+<section> 
     <div class="container-fluid">
         <div class="row">
             <div class="parallax-window white-fonts flex " data-parallax="scroll" data-height='500'
