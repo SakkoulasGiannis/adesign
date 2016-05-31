@@ -1,0 +1,48 @@
+.diamond {
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-bottom-color: blanchedalmond;
+  position: relative;
+  top: -50px;
+
+  .fa {
+    /* background: black; */
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    top: 27px;
+    z-index: 1;
+    left: -21px;
+  }
+
+}
+.diamond:after {
+  content: '';
+  position: absolute;
+  left: -50px;
+  top: 50px;
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-top-color: blanchedalmond;
+}
+
+.diamond-shield {
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-bottom: 20px solid red;
+  position: relative;
+  top: -50px;
+}
+.diamond-shield:after {
+  content: '';
+  position: absolute;
+  left: -50px; top: 20px;
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-top: 70px solid red;
+}

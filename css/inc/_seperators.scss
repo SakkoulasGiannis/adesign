@@ -1,4 +1,4 @@
-.zigZag{
+.zig-zag{
    width: 100%;
   height: 8px;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAP0lEQVQYV42Q0QoAIAgDz///aMPAKKeQb26HTg0tB6zKVUhI4Bus5tMn2K4Djh7gBGXM7Uvo5riQ/BfUNwwTWfn+CgiQkAMbAAAAAElFTkSuQmCC);
@@ -8,10 +8,10 @@
   margin-right: auto;
 }
 
-.zigZag-sm {
+.zig-zag-sm {
     width: 160px;
     height: 8px;
-   @extend .zigZag;
+   @extend .zig-zag;
 }
 /** small bottom line */
 .small-line:after {
@@ -60,26 +60,3 @@
     top: -10px;
 }
 
-/* line */
-.line-before, .line-after{
-  position: relative;
-}
-.line-before:before {
-    content: "";
-    background: $baseColor;
-    height: 3px;
-    width: 100%;
-    position: absolute;
-    top: 19px;
-    transform: rotate(180deg);
-    transform-origin: 0;
-}
-.line-after:after {
-    content: "";
-    background: $baseColor;
-    height: 3px;
-    width: 100%;
-    position: absolute;
-    top: 19px;
-}
-/* end line */

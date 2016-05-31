@@ -148,3 +148,19 @@ $(window).load(function() {
     }
     theWindow.resize(resizeBg).trigger("resize");
 });
+
+
+
+
+
+//genergal scripts
+
+//
+//var distance = $('.on-scroll-fixed-top').offset().top,
+//    $window = $(window);
+//
+//$window.scroll(function() {
+//    if ( $window.scrollTop() >= distance ) {
+//        $('.on-scroll-fixed-top').addClass('navbar-fixed-top');
+//    }
+//});

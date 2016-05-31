@@ -36,6 +36,7 @@ $defaultBtnColor: #222;
 @import 'inc/_creators';
 @import 'inc/_buttons';
 @import 'inc/_seperators';
+@import 'inc/_icons';
 
 section + section{
   margin-top: 40px;
@@ -280,7 +281,7 @@ ul{
 .no_margin{
     margin: 0;
 }
-.no_top_margin{
+.no-top-margin{
 margin-top: 0;
 }
 .no_bottom_margin{
@@ -482,8 +483,8 @@ li.dropdown:hover > a {
 /*endregion*/
 
 /*region section*/
-section{
-    // margin-bottom: 80px;
+section + section{
+     margin-bottom: 40px;
 }
 
 /*endregion*/

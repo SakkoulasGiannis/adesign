@@ -75,7 +75,8 @@
         </div>
     </section>
 
-    <nav class="navbar center navbar-style-1  on-scroll-gtt clearHeader " role="navigation">
+<!-- navigation -->
+    <nav class="navbar center navbar-style-1  on-scroll-fixed-top clearHeader " role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -125,28 +126,9 @@
     </nav>
 
     <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <ul class="grid cs-style-2">
-                    <li class="col-md-3">
-                        <figure>
-                            <img class="img-responsive" src="http://localhost/adesign/src/image3.jpg" alt="img01">
-                            <figcaption>
-                                <h3>Camera</h3>
-                                <span>Jacob Cummings</span>
-                                <a href="http://dribbble.com/shots/1115632-Camera">Take a look</a>
-                            </figcaption>
-                        </figure>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
         <div class="row margin-top-20">
             <div class="col-md-4">
-                <div class="box padding-10 text-center bordered">
+                <div class="box padding-10 text-center">
                     <i class="fa fa-code fa-3x "></i>
                     <h2>Title Here</h2>
                     <p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -157,7 +139,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="box padding-10 text-center bordered">
+                <div class="box padding-10 text-center ">
                     <i class="fa fa-code fa-3x "></i>
                     <h2>Title Here</h2>
                     <p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -168,7 +150,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="box padding-10 text-center bordered">
+                <div class="box padding-10 text-center">
                     <i class="fa fa-code fa-3x "></i>
                     <h2>Title Here</h2>
                     <p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -198,8 +180,26 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="parallax-window white-fonts flex " data-parallax="scroll" data-height='300'
-                 data-image-src="http://localhost/adesign/src/image3.jpg">
+            <div class="parallax-window white-fonts flex " data-parallax="scroll" data-height='500'
+                 data-image-src="/adesign/src/handsmobile.jpeg">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="">
+                        <div class="text-center">
+                            <i class="fa fa-gear"></i>
+                        </div>
+                        <h1 class="text-center">fdsdfds fdsfsfsd</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. .</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="parallax-window white-fonts flex " data-parallax="scroll" data-height='500'
+                 data-image-src="/adesign/src/image3.jpg">
                 <div class="col-md-6 col-md-offset-3">
                     <div class="">
                         <div class="text-center">

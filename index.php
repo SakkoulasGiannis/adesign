@@ -51,7 +51,7 @@ include('head.inc');
         <div class="row">
             <div class="col-md-12">
                 <div class="box-one padding-top-40">
-                    <div class="zigZag-sm"></div>
+                    <div class="zig-zag-sm"></div>
                     <div class="padding-btm-40 text-center">
                         <h3 class="large wow fadeInUp">Fast Simple Small</h3>
 
@@ -80,7 +80,7 @@ include('head.inc');
             </div>
             <div class="col-md-6">
                 <h2>Some text here</h2>
-                <div class="zigZag"></div>
+                <div class="zig-zag"></div>
                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
                     totam rem aperiam.</p>
                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
@@ -100,7 +100,7 @@ include('head.inc');
             <div class="col-md-6 ">
 
                 <h2>Some text here</h2>
-                <div class="zigZag"></div>
+                <div class="zig-zag"></div>
                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
                     totam rem aperiam.</p>
                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
@@ -133,7 +133,7 @@ include('head.inc');
                         <i class="fa fa-connectdevelop fa-3x"></i>
                     </div>
                     <div class="col-md-10">
-                        <h3 class="no_top_margin">Awesome design</h3>
+                        <h3 class="no-top-margin">Awesome design</h3>
                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
                             laudantium, totam rem aperiam</p>
                     </div>
@@ -145,7 +145,7 @@ include('head.inc');
                         <i class="fa fa-search fa-3x"></i>
                     </div>
                     <div class="col-md-10">
-                        <h3 class="no_top_margin">seo friendly</h3>
+                        <h3 class="no-top-margin">seo friendly</h3>
                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
                             laudantium, totam rem aperiam</p>
                     </div>
@@ -157,7 +157,7 @@ include('head.inc');
                         <i class="fa fa-magic fa-3x"></i>
                     </div>
                     <div class="col-md-10">
-                        <h3 class="no_top_margin">Awesome design</h3>
+                        <h3 class="no-top-margin">Awesome design</h3>
                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
                             laudantium, totam rem aperiam</p>
                     </div>
@@ -172,7 +172,7 @@ include('head.inc');
                         <i class="fa fa-connectdevelop fa-3x"></i>
                     </div>
                     <div class="col-md-10">
-                        <h3 class="no_top_margin">Awesome design</h3>
+                        <h3 class="no-top-margin">Awesome design</h3>
                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
                             laudantium, totam rem aperiam</p>
                     </div>
@@ -184,7 +184,7 @@ include('head.inc');
                         <i class="fa fa-connectdevelop fa-3x"></i>
                     </div>
                     <div class="col-md-10">
-                        <h3 class="no_top_margin">Awesome design</h3>
+                        <h3 class="no-top-margin">Awesome design</h3>
                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
                             laudantium, totam rem aperiam</p>
                     </div>
