@@ -2,14 +2,13 @@
 $navbar = null;
 include "../head.inc";
 ?>
-sdfdsfdsfsd
 <!--
 #boottstrap container
 #min-height: set min-height to 650px
 #margin-top: margint-top: 40px;
 -->
 
-<section> 
+<section>
     <div class="container-fluid">
         <div class="row">
             <div class="parallax-window white-fonts flex " data-parallax="scroll" data-height='500'
@@ -17,9 +16,9 @@ sdfdsfdsfsd
                 <div class="col-md-6 col-md-offset-3">
                     <div class="">
                         <div class="text-center">
-                            <i class="fa fa-gear"></i>
+
                         </div>
-                        <h1 class="text-center">test fdsdfds fdsfsfsd</h1>
+                        <h1 class="text-center"><i class="fa fa-gear"></i> test fdsdfds fdsfsfsd</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                             laboris nisi ut aliquip ex ea commodo consequat. .</p>

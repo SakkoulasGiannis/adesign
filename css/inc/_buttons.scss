@@ -46,3 +46,35 @@
 //     -o-animation-play-state: paused;
 //     animation-play-state: paused;
 // }
+
+.animateTopToBottom {
+  position: absolute;
+  transition: all 0.3s;
+  left: 30px;
+}
+.animateTopToBottom.first {
+  top: -20px;
+  opacity: 0;
+  font-size: 120%;
+
+
+}
+
+.animateTopToBottom.second {
+  top: 12px;
+  opacity:1;
+
+}
+
+
+a.btn.btn-block.hover-gradient.black.animate-icon:hover .animateTopToBottom.first {
+  top: 12px;
+  opacity:1;
+
+}
+a.btn.btn-block.hover-gradient.black.animate-icon:hover .animateTopToBottom.second {
+  top: 40px;
+  opacity:1;
+
+  opacity: 0;
+}
