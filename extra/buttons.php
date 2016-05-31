@@ -34,11 +34,11 @@ include "../head.inc";?>
     </div>
 
     <div class="col-md-3 cls-xs-6">
-      <a href='#' class="btn btn-block hover-gradient black animate-icon">
-        <span class="animateTopToBottom first pause">
+      <a href='#' class="btn btn-block hover-gradient black  makeSpanAbsolute animate-icon">
+        <span class="revealFromTop">
           <i class="fa fa-heart-o"></i>
        </span>
-        <span class="animateTopToBottom second pause">
+        <span class="active">
           <i class="fa fa-heart-o"></i>
        </span>Just a button
       </a>

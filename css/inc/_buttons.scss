@@ -47,34 +47,31 @@
 //     animation-play-state: paused;
 // }
 
-.animateTopToBottom {
+.makeSpanAbsolute span {
+  display: flex;
+  align-items: center;
   position: absolute;
-  transition: all 0.3s;
-  left: 30px;
+  align-content: center;
+
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
-.animateTopToBottom.first {
-  top: -20px;
+
+.makeSpanAbsolute span.revealFromTop {
   opacity: 0;
-  font-size: 120%;
-
-
+  margin-top: -20px;
 }
 
-.animateTopToBottom.second {
-  top: 12px;
-  opacity:1;
-
+.animate-icon:hover .revealFromTop {
+  opacity: 1;
+  margin-top:0;
 }
 
-
-a.btn.btn-block.hover-gradient.black.animate-icon:hover .animateTopToBottom.first {
-  top: 12px;
-  opacity:1;
-
-}
-a.btn.btn-block.hover-gradient.black.animate-icon:hover .animateTopToBottom.second {
-  top: 40px;
-  opacity:1;
-
+.animate-icon:hover .active {
   opacity: 0;
+  margin-top: 55px;
 }
+
