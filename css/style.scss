@@ -31,6 +31,7 @@
 $font: 'Roboto', sans-serif;
 $baseColor: #eee;
 $lightGray: #eee;
+$colorForDarkBackground: #fff;
 $purple: rebeccapurple;
 $defaultBtnColor: #222;
 @import 'inc/_creators';
@@ -520,8 +521,15 @@ section + section{
 /*endregion*/
 
 
-/*carouse*/
+/* font sizes */
+.font-xs{
+  font-size: 85%;
+}
+.font-sm{
+  font-size: 95%;
+}
 
+/*carouse*/
 .carousel-inner .item {
     overflow: hidden;
  }
@@ -588,11 +596,7 @@ section + section{
 
 }
 
-
-
 //border grid
-
-
 .grid + .grid:after {
   border-left: dotted 1px #c1c1c1;
   position: absolute;
@@ -603,3 +607,14 @@ section + section{
 }
 
 .grid + .grid:before {content: "";position: absolute;height: 100%;width: 100%;border-bottom: dotted 1px #C1C1C1;}
+
+
+
+footer{
+  color: $colorForDarkBackground;
+  &.bg-black a{
+    color: $colorForDarkBackground;
+  }
+
+
+}

@@ -162,6 +162,27 @@
             </div>
         </div>
 
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="parallax-window white-fonts flex " data-parallax="scroll" data-height='500'
+                     data-image-src="/adesign/src/handsmobile.jpeg">
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="">
+                            <div class="text-center">
+                                <i class="fa fa-gear"></i>
+                            </div>
+                            <h1 class="text-center">fdsdfds fdsfsfsd</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. .</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
         <div class="row margin-top-bottom-40">
             <div class="col-md-8 col-md-offset-2">
                 <div class="text-center">
@@ -178,25 +199,13 @@
         </div>
     </div>
 
+
+
+
     <div class="container-fluid">
-        <div class="row">
-            <div class="parallax-window white-fonts flex " data-parallax="scroll" data-height='500'
-                 data-image-src="/adesign/src/handsmobile.jpeg">
-                <div class="col-md-6 col-md-offset-3">
-                    <div class="">
-                        <div class="text-center">
-                            <i class="fa fa-gear"></i>
-                        </div>
-                        <h1 class="text-center">fdsdfds fdsfsfsd</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat. .</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
+
+
+
         <div class="row">
             <div class="parallax-window white-fonts flex " data-parallax="scroll" data-height='500'
                  data-image-src="/adesign/src/image3.jpg">

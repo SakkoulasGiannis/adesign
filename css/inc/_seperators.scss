@@ -14,15 +14,20 @@
    @extend .zig-zag;
 }
 /** small bottom line */
-.small-line:after {
+.small-line{
+  position:relative;
+  &:after {
     content: "";
     position: absolute;
     width: 120px;
     height: 7px;
     background:  $lightGray;
     display: block;
-    bottom: 0px;
+    bottom: -10px;
+  }
 }
+
+
 
 /** small center line */
 .seperator-small {
@@ -60,3 +65,18 @@
     top: -10px;
 }
 
+
+
+.sepeartor-1:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 75px;
+  bottom: -8px;
+  left: 0;
+  background: #eee;
+}
+
+.sepeartor-1 {
+  position: relative;
+}
