@@ -74,6 +74,20 @@ yepnope([{
         }
     },
     {
+
+        /*
+         * load elevate zoom.css
+         * http://www.elevateweb.co.uk/image-zoom/
+         */
+        test: $('img').hasClass('zoom'),
+        yep: locationUrl + 'js/jquery.elevateZoom-3.0.8.min.js',
+        callback: function (url, result, key) {
+            console.log('elevate zoom load');
+            $(".zoom").elevateZoom({scrollZoom : true});
+
+        }
+    },
+    {
         //load wow animate.css
         test: $('div').hasClass('owl-carousel'),
         yep: [locationUrl + 'js/owl.carousel.min.js', locationUrl + 'css/owl.carousel.css'],

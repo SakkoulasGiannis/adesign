@@ -42,6 +42,7 @@ $defaultBtnColor: #222;
 section + section{
   margin-top: 40px;
 }
+
 .min-height{
   min-height: 650px;
 }
@@ -69,12 +70,15 @@ html, body {
 /* list styles */
 
 ul{
+  margin-top: 10px;
   li.title {
     font-size: 110%;
     border-bottom: solid 1px;
   }
 }
-
+.no-border{
+  border: none;
+}
 
 /* list styles */
 
@@ -87,8 +91,18 @@ ul{
 
 .flex, .vertical-align {
   height: auto;
-  display: flex;
   align-items: center;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+
+  &.same-height > [class*='col-']{
+    flex-direction: column;
+  }
+
 }
 
 /*** parallax-window ***/
@@ -233,7 +247,24 @@ ul{
 
 .navbar{
   margin-bottom: 0;
+
+  &.center{
+
+  }
+
 }
+
+@media (min-width: 768px) {
+  .navbar-center {
+    width: 100%;
+    text-align: center;
+    > li {
+      float: none;
+      display: inline-block;
+    }
+  }
+}
+
 
 .fullscreen,
 .content-a {
@@ -319,6 +350,8 @@ padding-bottom: 0;
 }
 .bg-black{
     background: #000;
+    color: $colorForDarkBackground;
+    &li, a, p, i{color: $colorForDarkBackground}
 }
 .color_white{
     color: #fff!important;
