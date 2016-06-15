@@ -13,8 +13,6 @@
                 <div class="text-center margin-top-bottom-10">
                     M2334 <i class="fa fa-shopping-basket  "></i>
 
-</span>
-
 
                 </div>
             </div>
