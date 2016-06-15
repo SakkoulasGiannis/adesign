@@ -37,6 +37,7 @@ $defaultBtnColor: #222;
 @import 'inc/_creators';
 @import 'inc/_buttons';
 @import 'inc/_seperators';
+@import 'inc/_form-elements';
 @import 'inc/_icons';
 
 section + section{
@@ -55,6 +56,15 @@ html, body {
     /*** give this to all tags from html to .fullscreen ***/
     height:100%;
     font-family: $font;
+}
+
+
+a, a:hover{
+  text-decoration: none;
+}
+
+.border-bottom{
+  border-bottom: solid 1px #eee;
 }
 
 /* colors */

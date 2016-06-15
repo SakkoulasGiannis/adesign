@@ -494,6 +494,13 @@
 .sepeartor-1 {
   position: relative; }
 
+input.style-1 {
+  border: solid 1px transparent !important; }
+  input.style-1:focus {
+    box-shadow: 0 0 0 transparent !important;
+    outline: none;
+    border-bottom: solid 1px #eee; }
+
 .diamond {
   width: 0;
   height: 0;
@@ -552,6 +559,12 @@ html, body {
   /*** give this to all tags from html to .fullscreen ***/
   height: 100%;
   font-family: "Roboto", sans-serif; }
+
+a, a:hover {
+  text-decoration: none; }
+
+.border-bottom {
+  border-bottom: solid 1px #eee; }
 
 /* colors */
 .white-fonts p, .white-fonts a, .white-fonts h1, .white-fonts h2, .white-fonts h3, .white-fonts h4, .white-fonts h5, .white-fonts * {

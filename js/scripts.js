@@ -66,9 +66,9 @@ yepnope([{
         }
     },
     {
-        //load wow animate.css
+        //load awesome Fonts.css
         test: $('i').hasClass('fa'),
-        yep: 'http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css',
+        yep: locationUrl + 'css/plugins/font-awesome.min.css',
         callback: function (url, result, key) {
             console.log('awesome Fonts loaded');
         }
