@@ -501,6 +501,12 @@ input.style-1 {
     outline: none;
     border-bottom: solid 1px #eee; }
 
+.font-lg {
+  font-size: 120%; }
+
+.bold {
+  font-weight: bold; }
+
 .diamond {
   width: 0;
   height: 0;
